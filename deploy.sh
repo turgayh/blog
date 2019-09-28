@@ -5,8 +5,6 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 cd public
 
-rm -f .git/index
-git reset
 
 if [ -n "$GITHUB_AUTH_SECRET" ]
 then
@@ -15,7 +13,7 @@ then
     echo $GITHUB_AUTH_SECRET> ~/.git-credentials
 
     git config credential.helper store
-    git config user.email "turgayh@users.noreply.github.com"
+    git config user.email "turgayh@itu.edu.tr"
     git config user.name "turgayh"
 fi
 
