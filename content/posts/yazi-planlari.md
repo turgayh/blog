@@ -1,11 +1,12 @@
 ---
 title: "Yazi Planlari"
 date: 2020-03-23T22:44:28+03:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
-  - plan,yazi
+  - plan 
+  - yazi
 ---
 
 ---
