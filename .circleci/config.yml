@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: felicianotech/docker-hugo:0.21
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: "Run Hugo"
+          command: HUGO_ENV=production hugo -v -s ~/project/src/
+      - run:
+          name: "Test Website"
+          command: htmlproofer ~/project/src/public --allow-hash-href --check-html --empty-alt-ignore
+      - add_ssh_keys
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              echo 'example.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJiGRY6N9WYQ0vy6cTiwAgNbc6ueJmVo/EafBtmT7bcD6cQMbipYM/KfYQ2lCn2TxqWepZKYoyoVQXgArycCOns=' >> ~/.ssh/known_hosts
+              rsync -va --delete src/public/ staticweb@example.com:/var/www/
+            fi
