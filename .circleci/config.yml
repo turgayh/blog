@@ -1,0 +1,35 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: felicianotech/docker-hugo
+    working_directory: ~/project
+    steps:
+      - checkout
+      - run:
+          name: "Run Hugo"
+          command: hugo -D
+      - run:
+          name: "Clone website"
+          command: |
+             if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              mkdir www
+              cd www
+              git clone https://github.com/turgayh/turgayh.github.io.git
+              cd turgayh.github.io
+              rm -r *
+              cp -r ../../public/* ./
+              ls -la
+             fi
+      - run:
+          name: "Update Website"
+          command: |
+              if [ "${CIRCLE_BRANCH}" == "master" ]; then  
+                git config --global user.email "turgayh@itu.edu.tr"
+                git config --global user.name "turgayh"
+                cd ./www/turgayh.github.io
+                git add .
+                git commit -m "Circle CI automatic update"
+                git push -q https://${DEPLOY_KEY}@github.com/turgayh/turgayh.github.io.git master
+                
+              fi
