@@ -1,19 +1,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Hakan Turgay</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>https://turgayh.github.io/posts/</link>
         <description>Recent content in Posts on Hakan Turgay</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;</copyright>
-        <lastBuildDate>Mon, 23 Mar 2020 22:44:28 +0300</lastBuildDate>
-        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Thu, 26 Mar 2020 23:08:27 +0300</lastBuildDate>
+        <atom:link href="https://turgayh.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>React ve ASP.NET core kullanarak CRUD tabanli liste uygulamasi</title>
+            <link>https://turgayh.github.io/posts/2020/03/react-ve-asp.net-core-kullanarak-crud-tabanli-liste-uygulamasi/</link>
+            <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
+            
+            <guid>https://turgayh.github.io/posts/2020/03/react-ve-asp.net-core-kullanarak-crud-tabanli-liste-uygulamasi/</guid>
+            <description>6 kısa blog yazısında veritabanı işlemleri yapan(CRUD), önyüzde ReactJS Marked text</description>
+            <content type="html"><![CDATA[<p>6 kısa blog yazısında veritabanı işlemleri yapan(<b>CRUD</b>), önyüzde ReactJS <span class = "blue" >Marked text</span></p>
+]]></content>
+        </item>
         
         <item>
             <title>Yazi Planlari</title>
-            <link>http://localhost:1313/posts/2020/03/yazi-planlari/</link>
+            <link>https://turgayh.github.io/posts/2020/03/yazi-planlari/</link>
             <pubDate>Mon, 23 Mar 2020 22:44:28 +0300</pubDate>
             
-            <guid>http://localhost:1313/posts/2020/03/yazi-planlari/</guid>
+            <guid>https://turgayh.github.io/posts/2020/03/yazi-planlari/</guid>
             <description> Proje Tanitimi  React ve .netCore ile CRUD tabanli proje. Uygulamanin temel islevi uzerine Kullanilan teknolojiler : Docker , ReactJS, .netCore , MongoDB. kullanilan ortamlar : VS2019, VS Code ,Docker Desktop, Node  Bolum 1 Backend ASP.netcore webapi projesinin kurulumu  ilk asama yapinlandirmalari CORS yapilandirmasi  MongoDB kurulumu  localde docker uzeirnde mongodb olusturma ilk db ve icersine collection olusturma ornek insert islemleri ornek okuma islemleri  ASP.netcore ile mongodb kullanimi  mongodb yapilandirma adimlari Ddatabase: okuma , guncelleme ve ekleme servisleri eklenmesi controller yazilmasi kontrol edilmesi kapanis :D  Bolum 2 Frontend React Projesinin yapilandirirmasi  gerekli programlarim kurulu olup olmadigi kontrolu typescript destekli bir proje olusturma Kaynak  Onyuz  Anaekran ve islevler Component sinifi basit bir kullanim list halinde datayi alalim listelenen datadan data silme data ekleme update butonu [ekleme ve silme islemlerini barindiran yapida]  Bolum 3 Loglama yapilandirmasi Backend Log4Net Frontend [&amp;ldquo;&amp;rdquo;] Bolum 4 Unit Test Yazma </description>
             <content type="html"><![CDATA[
 
@@ -85,6 +96,19 @@
 <h2 id="frontend">Frontend [&ldquo;&rdquo;]</h2>
 
 <h1 id="bolum-4-unit-test-yazma">Bolum 4 Unit Test Yazma</h1>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Ilk</title>
+            <link>https://turgayh.github.io/posts/2020/03/ilk/</link>
+            <pubDate>Mon, 23 Mar 2020 01:03:26 +0300</pubDate>
+            
+            <guid>https://turgayh.github.io/posts/2020/03/ilk/</guid>
+            <description> hello </description>
+            <content type="html"><![CDATA[
+
+<h2 id="hello">hello</h2>
 ]]></content>
         </item>
         
