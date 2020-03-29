@@ -2,102 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hakan Turgay</title>
-    <link>https://turgayh.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Hakan Turgay</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 26 Mar 2020 23:08:27 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Mar 2020 22:44:28 +0300</lastBuildDate>
     
-	<atom:link href="https://turgayh.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>ASP.NET Core</title>
-      <link>https://turgayh.github.io/tags/asp.net-core/</link>
-      <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/asp.net-core/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Css</title>
-      <link>https://turgayh.github.io/tags/css/</link>
-      <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://turgayh.github.io/tags/docker/</link>
-      <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Html</title>
-      <link>https://turgayh.github.io/tags/html/</link>
-      <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mongodb</title>
-      <link>https://turgayh.github.io/tags/mongodb/</link>
-      <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/mongodb/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React</title>
-      <link>https://turgayh.github.io/tags/react/</link>
-      <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://turgayh.github.io/tags/web/</link>
-      <pubDate>Thu, 26 Mar 2020 23:08:27 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/web/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>plan</title>
-      <link>https://turgayh.github.io/tags/plan/</link>
+      <link>http://localhost:1313/tags/plan/</link>
       <pubDate>Mon, 23 Mar 2020 22:44:28 +0300</pubDate>
       
-      <guid>https://turgayh.github.io/tags/plan/</guid>
+      <guid>http://localhost:1313/tags/plan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yazi</title>
-      <link>https://turgayh.github.io/tags/yazi/</link>
+      <link>http://localhost:1313/tags/yazi/</link>
       <pubDate>Mon, 23 Mar 2020 22:44:28 +0300</pubDate>
       
-      <guid>https://turgayh.github.io/tags/yazi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>untagged</title>
-      <link>https://turgayh.github.io/tags/untagged/</link>
-      <pubDate>Mon, 23 Mar 2020 01:03:26 +0300</pubDate>
-      
-      <guid>https://turgayh.github.io/tags/untagged/</guid>
+      <guid>http://localhost:1313/tags/yazi/</guid>
       <description></description>
     </item>
     
