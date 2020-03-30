@@ -109,18 +109,5 @@
 ]]></content>
         </item>
         
-        <item>
-            <title>Ilk</title>
-            <link>https://turgayh.github.io/posts/2020/03/ilk/</link>
-            <pubDate>Mon, 23 Mar 2020 01:03:26 +0300</pubDate>
-            
-            <guid>https://turgayh.github.io/posts/2020/03/ilk/</guid>
-            <description> hello </description>
-            <content type="html"><![CDATA[
-
-<h2 id="hello">hello</h2>
-]]></content>
-        </item>
-        
     </channel>
 </rss>
