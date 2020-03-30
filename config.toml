@@ -3,7 +3,7 @@ title   = "Hakan Turgay"
 
 DefaultContentLanguage = "en"
 
-theme = "hello-friend-ng"
+theme = "hello-friend-th"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
