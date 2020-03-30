@@ -13,7 +13,6 @@ jobs:
           name: "Clone website"
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-             git clone https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng
              mkdir www
              cd www
              git clone https://github.com/turgayh/turgayh.github.io.git
