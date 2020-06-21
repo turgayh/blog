@@ -8,7 +8,9 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: hugo -D
+          command: | 
+            hugo -D
+            ls  -la 
       - run:
           name: "Clone website"
           command: |
