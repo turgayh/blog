@@ -15,19 +15,6 @@ jobs:
             ls themes
             ls  themes/*
       - run:
-          name: "Clone website"
-          command: |
-            if [ "${CIRCLE_BRANCH}" == "master" ]; then
-             git clone https://github.com/turgayh/hugo-theme-hello-friend-ng.git themes/hello-friend-th 
-             mkdir www
-             cd www
-             git clone https://github.com/turgayh/turgayh.github.io.git
-             cd turgayh.github.io
-             rm -r *
-             cp -r ../../public/* ./
-             ls -la
-            fi
-      - run:
           name: "Update Website"
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then  
