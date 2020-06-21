@@ -10,6 +10,7 @@ tags:
   - Html
   - Css
   - Web
+  - Hello 
 ---
 
 6 kısa blog yazısında veritabanı işlemleri yapan(<b>CRUD</b>), önyüzde ReactJS <span class = "blue" >Marked text</span>
