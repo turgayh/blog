@@ -10,7 +10,9 @@ jobs:
           name: "Run Hugo"
           command: | 
             hugo -D
-            ls  -la 
+            ls -la
+            ls themes
+            ls  themes/*
       - run:
           name: "Clone website"
           command: |
