@@ -8,7 +8,8 @@ jobs:
       - checkout
       - run:
           name: "Run Hugo"
-          command: | 
+          command: |
+            git submodule add https://github.com/rhazdon/hugo-theme-hello-friend-ng.git themes/hello-friend-ng 
             hugo -D
             ls -la
             ls themes
