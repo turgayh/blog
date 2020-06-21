@@ -20,7 +20,7 @@ jobs:
             if [ "${CIRCLE_BRANCH}" == "master" ]; then  
               git config --global user.email "turgayh@itu.edu.tr"
               git config --global user.name "turgayh"
-              cd ./www/turgayh.github.io
+              cd ./public
               git add .
               git commit -m "Circle CI Update Website | Build Number:${CIRCLE_BUILD_NUM}"
               git push -q https://${DEPLOY_KEY}@github.com/turgayh/turgayh.github.io.git master
