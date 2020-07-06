@@ -19,18 +19,18 @@ tag: Algoritma Dinamik Programlama Optimizasyon
 
 ## Cozum
 
-- En buyuk artan ardisik(1 er 1 er ) kume bulunur 
-- L = [5,2,1,3,4,6] orneginde  ```2 , 3 , 4```  **uzunlugu  S olsun** 
-- Eger bunlar disindakileri saga veya sola atarsak 2,3,4 yan yana gelecektir . 
+- En buyuk artan ardisik(1 er 1 er ) kume bulunur
+- L = [5,2,1,3,4,6] orneginde  ```2 , 3 , 4```  **uzunlugu  S olsun**
+- Eger bunlar disindakileri saga veya sola atarsak 2,3,4 yan yana gelecektir .
 - Sonuc olarak diziyi  ```N - S``` hamlede siralayabiliriz  (tumevarim ile ispatlanabilinir)
 
 - En uzun ardisik artan dizi uzunlugunu (S) bulmak icin
-!['artan-dizi-bulma'](../../resources/_gen/images/blog-1/firstweekQ1.png)
+!["hello"](../../../../images/firstweekQ1.png)
 
-## Sinirlar 
+
+## Sinirlar
 
 - 1<= N <= 10^6
-
 
 ## Kod - Python
 
@@ -50,13 +50,13 @@ print(N - max(A))
 
 ```cpp
 #include<bits/stdc++.h>
- 
+
 using namespace std;
- 
+
 const int N = 1000005;
 
 int arr[N], n;
-int lsis[N]; 
+int lsis[N];
 
 int main() {
 
