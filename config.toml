@@ -33,8 +33,11 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
-
-[permalinks]
+ [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+ [permalinks]
   posts = "/posts/:year/:month/:title/"
 
 [author]
@@ -126,7 +129,12 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "About"
     url        = "about/"
-    
+ 
+  [[menu.main]]
+    identifier = "quotes"
+    name       = "Quotes"
+    url        = "quotes/"
+   
   [[menu.main]]
     identifier = "CV"
     name       = "Resume"
