@@ -1,5 +1,5 @@
 ---
-title: "Quotes"
+title: ""
 date: 2020-10-11T21:45:50+03:00
 draft: true
 ---
