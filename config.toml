@@ -33,11 +33,8 @@ disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
- [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
- [permalinks]
+
+[permalinks]
   posts = "/posts/:year/:month/:title/"
 
 [author]
