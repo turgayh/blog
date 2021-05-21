@@ -13,3 +13,11 @@ draft: true
 > "FRP is programming with asynchronous data streams."
 >
 > --[Source](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
+
+---
+
+> "In logic, consistency is a quality of no contradiction"
+>
+> --[Source](https://youtu.be/3hccXiXI0u8?t=89)
+
+
