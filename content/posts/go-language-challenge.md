@@ -1,5 +1,5 @@
 ---
-title: "Go Language Challenge"
+title: "Go Language [Part 1]"
 date: 2020-07-11T22:47:08+03:00
 draft: true
 toc: false
