@@ -40,7 +40,7 @@ jobs:
       - name: Checking
         run: ls ../
       - name: Get theme
-        run: git submodule add https://github.com/turgayh/hugo-theme-hello-friend-ng.git themes/hello-friend-custom 
+        run: git submodule add https://github.com/turgayh/hugo-theme-hello-friend-ng.git ../blog/themes/hello-friend-custom 
 
       - name: Checkout
         uses: actions/checkout@v3
