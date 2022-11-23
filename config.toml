@@ -58,7 +58,8 @@ disableHugoGeneratorInject = false
   keywords = "Go Language-, Python, ReactJS, .NET Core, Testing"
   images = [""]
 
-  homeSubtitle = "github personel blog"
+  homeSubtitle = "Hi — I’m Hakan, a software developer based in Istanbul.
+I have experience in web,mobile development  with a variety of languages, such as NodeJS, .NetCore and Golang."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
