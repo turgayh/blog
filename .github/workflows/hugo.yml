@@ -36,9 +36,9 @@ jobs:
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-          
+
       - name: Checking
-        run: ls -la
+        run: ls
       - name: Get theme
         run: git submodule add https://github.com/turgayh/hugo-theme-hello-friend-ng.git themes/hello-friend-custom 
 
