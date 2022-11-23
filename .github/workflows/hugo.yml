@@ -38,7 +38,7 @@ jobs:
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
 
       - name: Checking
-        run: ls
+        run: ls ../
       - name: Get theme
         run: git submodule add https://github.com/turgayh/hugo-theme-hello-friend-ng.git themes/hello-friend-custom 
 
