@@ -59,7 +59,7 @@ disableHugoGeneratorInject = false
   images = [""]
 
   homeSubtitle = "Hi — I’m Hakan, a software developer based in Istanbul.
-I have experience in web,mobile development  with a variety of languages, such as NodeJS, .NetCore and Golang."
+I have experience in web,mobile development  with a variety of languages, such as Javascript(NodeJS), Golang, and C#(.NetCore)."
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""
